@@ -8,10 +8,39 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      maxWidth: {
+        home: 'calc(100vw - ((100vw - 1180px) / 2))',
+        1180: '1180px',
+      },
+      height: {
+        656: '656px',
+      },
+      minHeight: {
+        home: '656px',
+      },
+      transitionProperty: {
+        footer: 'all 0.2s ease-in-out',
+      },
+      translate: {
+        110: 'translateY(110%)',
+      },
+      backgroundColor: {
+        backgroud: '#121214',
+        elements: '#202024',
+        icon: '#8D8D99',
+        principal: '#00875F',
+        light: '#00B37E',
+      },
+      textColor: {
+        text: '#C4C4CC',
+        title: '#E1E1E6',
+        icon: '#8D8D99',
+        principal: '#00875F',
+        light: '#00B37E',
+      },
+      animation: {
+        overlayShow: 'all 0.5s ease-in-out',
+        contentShow: 'all 0.5s ease-in-out',
       },
     },
   },
