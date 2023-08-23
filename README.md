@@ -2,11 +2,13 @@
 
 
 
-https://screenrec.com/share/0S17LWlHsq
-
+<p align='center'>
+  <img src='/src/assets/demo.gif' />
+</p>
 Ignite Shop é uma aplicação web para compras de múltiplos produtos.
 
 Esse projeto foi desenvolvido através de um dos desafios da trilha de React do Ignite da Rocketseat.
+
 ## 🛠 Skills
 - ReactJS
 - Typescript
