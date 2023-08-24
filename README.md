@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido através de um dos desafios da trilha de React do 
 - NextJS
 - Zustand
 
-## 🛋️ Coneitos utilizados
+## 🛋️ Conceitos utilizados
 - Estados
 - Imutabilidade do estado
 - Componentização
